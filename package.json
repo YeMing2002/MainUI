@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "",
   "main": "lib/mainui.umd.min.js",
+  "author": {
+    "name": "codeym"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -43,9 +46,8 @@
     "last 2 versions",
     "not dead"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YeMing2002/MainUI.git",
+  "bugs": {
+    "url": "https://github.com/YeMing2002/MainUI/issues"
   },
   "keywords": [
     "mainui",
@@ -55,10 +57,10 @@
     "main_ui",
     "main"
   ],
-  "author": "codeym",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/YeMing2002/MainUI/issues"
-  },
-  "homepage": "https://github.com/YeMing2002/MainUI#readme"
+  "homepage": "https://github.com/YeMing2002/MainUI#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeMing2002/MainUI.git"
+  }
 }
