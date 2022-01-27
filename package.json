@@ -1,71 +1,71 @@
 {
-  "name": "mainui",
-  "version": "0.0.4",
-  "description": "",
-  "main": "lib/mainui.umd.min.js",
-  "author": {
-    "name": "codeym"
-  },
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --dest lib packages/index.js"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "element-ui": "^2.15.6",
-    "less": "^4.1.2",
-    "less-loader": "^6.2.0",
-    "sass-loader": "^10.2.1",
-    "vant": "^2.12.39",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "6.0",
-    "sass-resources-loader": "^2.2.4",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
+    "name": "mainui",
+    "version": "0.0.4",
+    "description": "",
+    "main": "lib/mainui.umd.min.js",
+    "author": {
+        "name": "codeym"
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "lib": "vue-cli-service build --target lib --dest lib src/index.js"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "element-ui": "^2.15.6",
+        "less": "^4.1.2",
+        "less-loader": "^6.2.0",
+        "sass-loader": "^10.2.1",
+        "vant": "^2.12.39",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "node-sass": "6.0",
+        "sass-resources-loader": "^2.2.4",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
     ],
-    "parserOptions": {
-      "parser": "babel-eslint"
+    "bugs": {
+        "url": "https://github.com/YeMing2002/MainUI/issues"
     },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
-  "bugs": {
-    "url": "https://github.com/YeMing2002/MainUI/issues"
-  },
-  "keywords": [
-    "mainui",
-    "Main-UI",
-    "main-ui",
-    "Main_UI",
-    "main_ui",
-    "main"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/YeMing2002/MainUI#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YeMing2002/MainUI.git"
-  }
+    "keywords": [
+        "mainui",
+        "Main-UI",
+        "main-ui",
+        "Main_UI",
+        "main_ui",
+        "main"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/YeMing2002/MainUI#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YeMing2002/MainUI.git"
+    }
 }
