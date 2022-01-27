@@ -1,6 +1,6 @@
 {
     "name": "mainui",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "",
     "main": "lib/mainui.umd.min.js",
     "author": {
