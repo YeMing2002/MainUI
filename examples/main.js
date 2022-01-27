@@ -9,16 +9,16 @@ Vue.config.productionTip = false
 // Vue.use(Button)
 // Vue.use(Toast)
 
-// import YUI from '../packages/index'
+import MainUI from '@/index.js'
 
-// Vue.use(YUI)
+Vue.use(MainUI)
 
-import {Button,Toast} from '../lib/mainui.umd'
-import '../lib/mainui.css'
-Vue.use(Button)
-Vue.use(Toast)
+// import {Button,Toast} from '../lib/mainui.umd'
+// import '../lib/mainui.css'
+// Vue.use(Button)
+// Vue.use(Toast)
 
 
 new Vue({
-  render: h => h(App),
+    render: h => h(App),
 }).$mount('#app')
