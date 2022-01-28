@@ -2,6 +2,7 @@
 node_modules/
 examples/
 packages/
+src/
 public/
 vue.config.js
 babel.config.js

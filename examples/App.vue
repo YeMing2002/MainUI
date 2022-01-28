@@ -25,12 +25,12 @@
       <m-button round type="danger">圆角</m-button>
     </div>
     <div class="row">
-      <m-button circle icon="main-icon-check"></m-button>
-      <m-button circle icon="main-icon-check" type="primary"></m-button>
-      <m-button circle icon="main-icon-check" type="success"></m-button>
-      <m-button circle icon="main-icon-check" type="info"></m-button>
-      <m-button circle icon="main-icon-check" type="warning"></m-button>
-      <m-button circle icon="main-icon-check" type="danger"></m-button>
+      <m-button circle icon="m-icon-check"></m-button>
+      <m-button circle icon="m-icon-check" type="primary"></m-button>
+      <m-button circle icon="m-icon-check" type="success"></m-button>
+      <m-button circle icon="m-icon-check" type="info"></m-button>
+      <m-button circle icon="m-icon-check" type="warning"></m-button>
+      <m-button circle icon="m-icon-check" type="danger"></m-button>
     </div>
     <div class="row">
       <m-button disabled>按钮</m-button>
